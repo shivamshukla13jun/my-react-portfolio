@@ -3,24 +3,24 @@ import React, { Component } from 'react';
 
 let portfolioList= [
     {
-      title: "Genx (E-commerce)",
-      imgUrl:"https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8ZSUyMGNvbW1lcmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+      title: "C3 Express ",
+      imgUrl:"https://images.unsplash.com/photo-1690999389827-680a30215234?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       desc: "Genx a leading IT solutions provider baed UAE Company",
-      portLink:"https://genx.ae/",
+      portLink:"https://c3xpress.com/",
       tags:["Reactjs","Nodejs"]
     },
     {
-      title: "Python Compiler",
-      imgUrl:"https://img.freepik.com/premium-photo/various-computer-equipment-with-programming-code-screens-table-dark-room-cyber-security-concept-copy-space_236854-23136.jpg?w=740",
-      desc: "Executing python code real tim ",
-      portLink:"https://educobottask.handsintechnology.in/",
+      title: "Security Tool",
+      imgUrl:"https://media.istockphoto.com/id/2151954310/photo/shield-security-network-technology-wire-frame-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=dXCjIveEjelzAWqLkt3Hu6LXYhBSyH5vJAcCXhr06k8=",
+      desc: "Secure a Site",
+      portLink:"https://securitytool.handsintechnology.in/",
       tags:["Rectjs","Nodejs","Socket.io"]
     },
     {
-      title: "Netflix Clone",
-      imgUrl:"https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dmlkZW8lMjBzdHJlYW1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
-      desc: "Netflix clone",
-      portLink:"https://github.com/shivamshukla13jun/netflixclone",
+      title: "Last Minute Policy",
+      imgUrl:"https://media.istockphoto.com/id/1295819436/photo/selective-focus-of-magnifying-glass-glasses-and-insurance-policy-letter-on-a-white-wooden.webp?a=1&b=1&s=612x612&w=0&k=20&c=oY7mTtRim2v8pav2C4xPnIoMcTEt6ETxI4V9fckGgK0=",
+      desc: "Last Minute policy",
+      portLink:"https://lmpfrontend.handsintechnology.in/",
       tags:["Rectjs","Nodejs"]
     },
     ]
@@ -47,11 +47,14 @@ class Portfolio extends Component {
                                     <div className="grid-inner">
                                         <div className="thumb">
                                             <img 
+                                            className='img-thumbnail img-responsive'
                                                 src={`${val.imgUrl}`} 
                                                 alt={`${val.imgAlt}`} 
+                                                // width={400}
+                                                // height={300}
                                             />
                                             <div className="thumb-icon">
-                                                <a href={`${val.portLink}`} ><i className="icofont-link"></i></a>
+                                                <a href={`${val.portLink}`} target='_blank' ><i className="icofont-link"></i></a>
                                             </div>
 
                                         </div>

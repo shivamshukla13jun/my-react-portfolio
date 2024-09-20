@@ -22,7 +22,7 @@ class Banner_bottom extends Component {
                             </div>
                             <div className="post-content">
                                 <h5>Send us a Message</h5>
-                                <h5><span>shivamshukla13jun@mail.com</span></h5>
+                                <h5><span>shivam13jun@mail.com</span></h5>
                             </div>
                         </div>
                        

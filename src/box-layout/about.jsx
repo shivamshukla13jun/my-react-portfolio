@@ -19,7 +19,7 @@ const aboutRightUl= [
     },
     {
         LeftContent: 'Email',
-        RightContent: 'shivamshukla13jun@gmail.com',
+        RightContent: 'shivam13jun@gmail.com',
     },
     {
         LeftContent: 'Phone',
